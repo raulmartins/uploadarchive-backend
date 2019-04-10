@@ -15,7 +15,7 @@ io.on('connection', socket => {
   })
 })
 
-mongoose.connect('mongodb+srv://oministack:oministack@cluster0-rwm4i.mongodb.net/oministack?retryWrites=true',
+mongoose.connect('mongodb+srv://oministack:oministack@cluster0-rr3l9.mongodb.net/uploadArchive?retryWrites=true',
   { useNewUrlParser: true }
 )
 
